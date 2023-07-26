@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/blue_400"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+    >
+
+    <ImageView
+        android:id="@+id/cursoandroid"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        app:srcCompat="@drawable/ic_androidblue2" />
+    <TextView
+        android:id="@+id/textCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Curso Android Studio"
+        android:textSize="22sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/textIeca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:text="IECA Conectando Talento"
+        android:textSize="17sp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

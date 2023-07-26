@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <group android:checkableBehavior="single"
+        >
+        <item android:id="@+id/nombre"
+            android:icon="@drawable/ic_perfil"
+            android:title="Perfil"
+            />
+        <item android:id="@+id/reglas"
+            android:icon="@drawable/ic_reglas"
+            android:title="Reglamento"
+            />
+        <item android:id="@+id/resume"
+            android:icon="@drawable/ic_trayectorie"
+            android:title="Resumen Curso"
+            />
+        <item android:id="@+id/temary"
+            android:icon="@drawable/ic_class"
+            android:title="Temario"
+            />
+        <item android:id="@+id/sessions"
+            android:icon="@drawable/ic_enlace"
+            android:title="Sesiones"
+            />
+    </group>
+</menu>

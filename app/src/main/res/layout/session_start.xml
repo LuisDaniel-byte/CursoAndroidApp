@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartSession"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_ieca"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/idTVHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:padding="5dp"
+        android:text="Bienvenido "
+        android:textAlignment="center"
+        android:textColor="@color/blue_100"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="90dp"
+        android:padding="5dp"
+        android:text="Correo electrónico *"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/idEdtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:text="Contraseña *"
+        android:layout_marginStart="-20dp"
+        android:layout_marginEnd="150dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="330dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/idEdtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="370dp"
+        android:hint="Contraseña"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:outlineSpotShadowColor="@color/black"/>
+
+    <Button
+        android:id="@+id/idBtnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@color/blue_100"
+        android:outlineSpotShadowColor="@color/black"
+        android:text="Iniciar Sesión"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/idBtnUpdateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="415dp"
+        android:layout_marginEnd="220dp"
+        android:backgroundTint="@color/white"
+        android:outlineSpotShadowColor="@color/blue_100"
+        android:text="@string/str_Cambiar_Nombre_y_Correo"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_100"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/idBtnChangePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="200dp"
+        android:backgroundTint="@color/white"
+        android:outlineSpotShadowColor="@color/blue_100"
+        android:text="@string/str_Cambiar_Contraseña"
+        android:textAllCaps="false"
+        android:textColor="@color/blue_100"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="800dp"
+        android:src="@drawable/ic_gto"
+        android:layout_marginTop="550dp"/>
+
+</RelativeLayout>
+

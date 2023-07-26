@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CursoAndroidApp</string>
+    <string name="str_Cambiar_Contraseña"><u>Cambiar Contraseña</u></string>
+    <string name="str_Cambiar_Nombre_y_Correo"><u>Cambiar Nombre y Correo </u></string>
+    <string name="open_menu">Open</string>
+    <string name="close_menu">Close</string>
+
+</resources>

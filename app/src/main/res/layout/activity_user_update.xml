@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserUpdate">
+
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_ieca"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idEdtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Correo electrónico"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idEdtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="250dp"
+        android:hint="Contraseña"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:textSize="25sp"
+        android:outlineSpotShadowColor="@color/black"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idChange_User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Nombre Usuario Nuevo"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/idChange_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Correo Electronico Nuevo"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/idChange_Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="85dp"
+        android:backgroundTint="@color/blue_100"
+        android:outlineSpotShadowColor="@color/black"
+        android:text="Cambiar Usuario/Correo"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="800dp"
+        android:src="@drawable/ic_gto"
+        android:layout_marginTop="550dp"/>
+
+</RelativeLayout>
